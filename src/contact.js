@@ -22,7 +22,7 @@ const contact = () => {
 
         const summerImg = document.createElement("img");
         summerImg.className = "imgs"
-        summerImg.src = "../dist/images/summertheme.jpeg";
+        summerImg.src = "images/summertheme.jpeg";
         contactDiv.appendChild(summerImg);
     })()
 }

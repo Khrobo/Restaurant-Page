@@ -31,7 +31,7 @@ const menu = () => {
         bocoDiv.appendChild(bocoHead)
         const bocoImg = new Image();
         bocoImg.className = "imgs";
-        bocoImg.src = "../dist/images/boco.jpg";
+        bocoImg.src = "images/boco.jpg";
         bocoDiv.appendChild(bocoImg);
         const bocoInfo = document.createElement("p");
         bocoInfo.innerText = `Creamy bocconcini is golden fried for an enticing crunch, and served with spicy tomato clip.`
@@ -46,7 +46,7 @@ const menu = () => {
         skewerDiv.append(skewerHead);
         const skewerImg = new Image();
         skewerImg.className = "imgs";
-        skewerImg.src = "../dist/images/skewers.jpeg";
+        skewerImg.src = "images/skewers.jpeg";
         skewerDiv.appendChild(skewerImg);
         const skewerInfo = document.createElement("p");
         skewerInfo.innerText = `This wonderful Malay chicken dish creates flavour and excitement with simple cooking and just a few authentic ingredients.`
@@ -78,14 +78,14 @@ const menu = () => {
         document.querySelector(".main"));
 
         const spicyImg = new Image();
-        spicyImg.src = "../dist/images/thai.jpeg";
+        spicyImg.src = "images/thai.jpeg";
         spicyImg.className = "imgs"
         thaiDiv.appendChild(spicyImg);
         const thaiInfo = document.createElement("p");
         thaiDiv.appendChild(thaiInfo);
         thaiInfo.innerText = `This spicy thai dish has spectacular taste 
         even with the regular basil instead of holy basil. The sauce acts like a glaze as the chicken mixture cooks over high heat.`
-
+        
         // Cardamom
         const mapleDiv = document.createElement("div");
         mapleDiv.className = "maple";
@@ -97,7 +97,7 @@ const menu = () => {
         const mapleImg = document.createElement("img");
         mapleImg.className = "imgs"
         mapleDiv.appendChild(mapleImg);
-        mapleImg.src = "../dist/images/cardamom.jpeg";
+        mapleImg.src = "images/cardamom.jpeg";
         const mapleInfo = document.createElement("p");
         mapleDiv.appendChild(mapleInfo);
         mapleInfo.innerText = `A slightly exotic flavor of indian inspired
@@ -122,7 +122,7 @@ const menu = () => {
 
         const creamImg = document.createElement("img");
         creamImg.className = "imgs";
-        creamImg.src = "../dist/images/icecream.jpeg";
+        creamImg.src = "images/icecream.jpeg";
         creamDiv.appendChild(creamImg);
         const creamInfo = document.createElement("p");
         creamInfo.innerText = `The perfect ice cream without the deep frying mess! Creamy vanilla ice cream is formed into rounds, then rolled through a sauteed buttery cinnamon cornflake topping and finished with chocolate
@@ -139,7 +139,7 @@ const menu = () => {
 
         const oreoImg = new Image();
         oreoImg.className = "imgs";
-        oreoImg.src = "../dist/images/truffles.jpeg";
+        oreoImg.src = "images/truffles.jpeg";
         oreoDiv.appendChild(oreoImg);
         const oreoInfo = document.createElement("p");
         oreoInfo.innerText = `Oreos, cream cheese, and white chocolate

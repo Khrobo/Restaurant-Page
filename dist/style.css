@@ -87,9 +87,6 @@ h2 {
     background: #236e96;
     color: white;
 }
-.menu:target {
-    background: red;
-}
 
 .btn {
     padding: .5rem;
@@ -112,3 +109,37 @@ h2 {
     margin: .5rem auto;
 }
 
+@media screen and (min-width: 864px) {
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    h2 {
+        font-size: 3.1rem;
+    }
+
+    nav > * {
+        font-size: 1.2rem;
+    }
+
+    .fas {
+        font-size: 4rem;
+    }
+
+    .homeform, .menuform,
+    .contactform {
+        width: 600px;
+        padding: 2rem;
+    }
+
+    .homeform > p,
+    .homeform > ul,
+    .menuform > div,
+    .contactform > * {
+        font-size: 1.7rem;
+    }
+
+    .imgs {
+        width: 450px;
+    }
+}
